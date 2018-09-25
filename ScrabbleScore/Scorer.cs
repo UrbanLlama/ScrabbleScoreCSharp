@@ -31,7 +31,7 @@
                 }
                 else
                 {
-                    score = modifier * GetLetterScore(word[n]);
+                    score += modifier * GetLetterScore(word[n]);
 
                     modifier = 1;
                 }
