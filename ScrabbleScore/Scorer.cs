@@ -49,10 +49,11 @@
             int[] scores = {1,1,1,1,1,1,1,1,1,1, 2,2, 3,3,3,3, 4,4,4,4,4, 5, 8,8, 10,10};
 
             int index = 0;
-            do
+
+            while (letters[index] != letter)
             {
                 index += 1;
-            } while (letters[index] != letter);
+            };
 
             return scores[index];
         }
